@@ -13,17 +13,17 @@
     dcterms:title "Communication numerique" .
 
 comm:Outils a rdfs:Class ;
-    rdfs:label "Numerique" ;
+    rdfs:label "Outils" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 comm:Sites a rdfs:Class ;
-    rdfs:label "Web" ;
+    rdfs:label "Sites" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 comm:IA a rdfs:Class ;
-    rdfs:label "Intelligence artificielle" ;
+    rdfs:label "IA" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -33,7 +33,7 @@ comm:Internet a rdfs:Class ;
     vs:term_status "experimental" .
 
 comm:Reseau a rdfs:Class ;
-    rdfs:label "Social" ;
+    rdfs:label "Reseau" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .    
 
@@ -43,12 +43,12 @@ comm:Technologie a rdfs:Class ;
     vs:term_status "experimental" .
 
 comm:Ecrans a rdfs:Class ;
-    rdfs:label "Numerique" ;
+    rdfs:label "Ecrans" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:EC a rdfs:Class ;
-    rdfs:label "Élément constitutif" ;
+comm:Numerique a rdfs:Class ;
+    rdfs:label "Numerique" ;
     rdfs:domain o:Resource ;
     owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
