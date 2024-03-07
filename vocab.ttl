@@ -4,62 +4,62 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix comm: <https://jardindesconnaissances.univ-paris8.fr/onto/comm#> .
+@prefix comn: <https://jardindesconnaissances.univ-paris8.fr/onto/comn#> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/comm> a owl:Ontology ;
+<https://jardindesconnaissances.univ-paris8.fr/onto/comn> a owl:Ontology ;
     dcterms:title "Communication numerique" .
 
-comm:Outils a rdfs:Class ;
+comn:Outils a rdfs:Class ;
     rdfs:label "Outils" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:Sites a rdfs:Class ;
+comn:Sites a rdfs:Class ;
     rdfs:label "Sites" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:IA a rdfs:Class ;
+comn:IA a rdfs:Class ;
     rdfs:label "IA" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:Internet a rdfs:Class ;
+comn:Internet a rdfs:Class ;
     rdfs:label "Internet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:Reseau a rdfs:Class ;
+comn:Reseau a rdfs:Class ;
     rdfs:label "Reseau" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .    
 
-comm:Technologie a rdfs:Class ;
+comn:Technologie a rdfs:Class ;
     rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:Ecrans a rdfs:Class ;
+comn:Ecrans a rdfs:Class ;
     rdfs:label "Ecrans" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comm:Numerique a rdfs:Class ;
+comn:Numerique a rdfs:Class ;
     rdfs:label "Numerique" ;
     rdfs:domain o:Resource ;
     owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
 
-comm:Smartphone a rdfs:Class ;
+comn:Smartphone a rdfs:Class ;
     rdfs:label "Smartphone" ;
     rdfs:domain o:Resource ;
     owl:sameAs foaf:Person ;    
     vs:term_status "experimental" .
 
-comm:Seminaire a rdfs:Class ;
+comn:Seminaire a rdfs:Class ;
     rdfs:label "Séminaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
