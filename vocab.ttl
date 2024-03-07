@@ -53,13 +53,13 @@ comm:Numerique a rdfs:Class ;
     owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
 
-fup8:Etudiant a rdfs:Class ;
-    rdfs:label "Etudiant" ;
+comm:Smartphone a rdfs:Class ;
+    rdfs:label "Smartphone" ;
     rdfs:domain o:Resource ;
     owl:sameAs foaf:Person ;    
     vs:term_status "experimental" .
 
-fup8:Seminaire a rdfs:Class ;
+comm:Seminaire a rdfs:Class ;
     rdfs:label "Séminaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
