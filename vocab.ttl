@@ -12,8 +12,8 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/comn> a owl:Ontology ;
     dcterms:title "Communication numerique" .
 
-comn:Realitevirtuelle a rdfs:Class ;
-    rdfs:label "Realitevirtuelle" ;
+comn:Outilsnumerique a rdfs:Class ;
+    rdfs:label "Outils numerique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -49,14 +49,12 @@ comn:Ecrans a rdfs:Class ;
 
 comn:Numerique a rdfs:Class ;
     rdfs:label "Numerique" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs schema:Course ;    
+    rdfs:domain o:Resource ;   
     vs:term_status "experimental" .
 
 comn:Web a rdfs:Class ;
     rdfs:label "Web" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs foaf:Person ;    
+    rdfs:domain o:Resource ;   
     vs:term_status "experimental" .
 
 
@@ -70,8 +68,8 @@ comn:Marketingnumerique a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comn:Publicite a rdfs:Class ;
-    rdfs:label "Publicite" ;
+comn:Realitevirtuelle a rdfs:Class ;
+    rdfs:label "Realite virtuelle" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
