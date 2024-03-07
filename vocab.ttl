@@ -37,7 +37,7 @@ comn:Reseau a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .    
 
-comn:Technologie a rdfs:Class ;
+comn:Techno a rdfs:Class ;
     rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
