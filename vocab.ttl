@@ -59,8 +59,57 @@ comn:Smartphone a rdfs:Class ;
     owl:sameAs foaf:Person ;    
     vs:term_status "experimental" .
 
-comn:Seminaire a rdfs:Class ;
-    rdfs:label "Séminaire" ;
+
+
+comn:Outils a rdf:Property ;
+    rdfs:label "Outils" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+comn:Sites a rdf:Property ;
+    rdfs:label "Sites" ;
+    dcterms:description "European Credits Transfer System";
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:IA a rdf:Property ;
+    rdfs:label "IA" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+comn:Internet a rdf:Property ;
+    rdfs:label "Internet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:Reseau a rdf:Property ;
+    rdfs:label "Reseau" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:vhch a rdf:Property ;
+    rdfs:label "Volume Horaire chargé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:cch a rdf:Property ;
+    rdfs:label "Choix du Créneau Horaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcCM a rdf:Property ;
+    rdfs:label "% Cours magistraux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcTD a rdf:Property ;
+    rdfs:label "% Travaux dirigés" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:pcTP a rdf:Property ;
+    rdfs:label "% Travaux pratiques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
