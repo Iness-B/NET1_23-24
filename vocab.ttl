@@ -66,7 +66,7 @@ comn:Outils a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-comn:Sites a rdf:Property ;
+comn:St a rdf:Property ;
     rdfs:label "Sites" ;
     dcterms:description "European Credits Transfer System";
     rdfs:domain o:Resource ;
@@ -74,42 +74,42 @@ comn:Sites a rdf:Property ;
     vs:term_status "experimental" .
 
 comn:IA a rdf:Property ;
-    rdfs:label "IA" ;
+    rdfs:label "Intelligence artificielle" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-comn:Internet a rdf:Property ;
+comn:Net a rdf:Property ;
     rdfs:label "Internet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:Reseau a rdf:Property ;
-    rdfs:label "Reseau" ;
+comn:Insta a rdf:Property ;
+    rdfs:label "Instagram" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:vhch a rdf:Property ;
-    rdfs:label "Volume Horaire chargé" ;
+comn:Fb a rdf:Property ;
+    rdfs:label "Facebook" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:cch a rdf:Property ;
-    rdfs:label "Choix du Créneau Horaire" ;
+comn:Ordi a rdf:Property ;
+    rdfs:label "Ordinateur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:pcCM a rdf:Property ;
-    rdfs:label "% Cours magistraux" ;
+comn:Cnx a rdf:Property ;
+    rdfs:label "Connexion" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:pcTD a rdf:Property ;
-    rdfs:label "% Travaux dirigés" ;
+comn:Techno a rdf:Property ;
+    rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:pcTP a rdf:Property ;
-    rdfs:label "% Travaux pratiques" ;
+comn:CM a rdf:Property ;
+    rdfs:label "communication numerique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
