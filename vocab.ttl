@@ -12,8 +12,8 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/comn> a owl:Ontology ;
     dcterms:title "Communication numerique" .
 
-comn:Outils a rdfs:Class ;
-    rdfs:label "Outils" ;
+comn:Realitevirtuelle a rdfs:Class ;
+    rdfs:label "Realitevirtuelle" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -53,22 +53,42 @@ comn:Numerique a rdfs:Class ;
     owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
 
-comn:Smartphone a rdfs:Class ;
-    rdfs:label "Smartphone" ;
+comn:Web a rdfs:Class ;
+    rdfs:label "Web" ;
     rdfs:domain o:Resource ;
     owl:sameAs foaf:Person ;    
     vs:term_status "experimental" .
 
 
+comn:Mediassociaux a rdfs:Class ;
+    rdfs:label "Medias sociaux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+comn:Marketingnumerique a rdfs:Class ;
+    rdfs:label "Marketing numérique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+comn:Publicite a rdfs:Class ;
+    rdfs:label "Publicite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+comn:Contenunumerique a rdfs:Class ;
+    rdfs:label "Contenu numerique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 comn:Outils a rdf:Property ;
     rdfs:label "Outils" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:St a rdf:Property ;
+comn:Site a rdf:Property ;
     rdfs:label "Sites" ;
-    dcterms:description "European Credits Transfer System";
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
@@ -82,34 +102,76 @@ comn:IA a rdf:Property ;
 comn:Net a rdf:Property ;
     rdfs:label "Internet" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:Insta a rdf:Property ;
     rdfs:label "Instagram" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:Fb a rdf:Property ;
     rdfs:label "Facebook" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:Ordi a rdf:Property ;
     rdfs:label "Ordinateur" ;
-    rdfs:domain o:Resource ;
+    rdfs:domain o:Resource ; 
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:Cnx a rdf:Property ;
     rdfs:label "Connexion" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:Techno a rdf:Property ;
     rdfs:label "Technologie" ;
     rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
 comn:CM a rdf:Property ;
     rdfs:label "communication numerique" ;
     rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+comn:Influenceurs a rdf:Property ;
+    rdfs:label "Influenceurs" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:Plateforme a rdf:Property ;
+    rdfs:label "Plateforme" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:TV a rdf:Property ;
+    rdfs:label "Tendances virales" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:TELE a rdf:Property ;
+    rdfs:label "Television" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:Mail a rdf:Property ;
+    rdfs:label "mail" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:UI a rdf:Property ;
+    rdfs:label "Interface utilisateur" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
     vs:term_status "experimental" .
