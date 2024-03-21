@@ -13,7 +13,7 @@
     dcterms:title "Communication numerique" .
 
 comn:Outilsnumerique a rdfs:Class ;
-    rdfs:label "Outils numerique" ;
+    rdfs:label "Outilsnumerique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -79,38 +79,38 @@ comn:Contenunumerique a rdfs:Class ;
     vs:term_status "experimental" .
 
 
-comn:Outils a rdf:Property ;
-    rdfs:label "Outils" ;
+comn:URL a rdf:Property ;
+    rdfs:label "URL" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Site a rdf:Property ;
-    rdfs:label "Sites" ;
+comn:Algorithme a rdf:Property ;
+    rdfs:label "Algorithme" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:IA a rdf:Property ;
-    rdfs:label "Intelligence artificielle" ;
+comn:Données a rdf:Property ;
+    rdfs:label "Données" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-comn:Net a rdf:Property ;
-    rdfs:label "Internet" ;
+comn:Accessibilite a rdf:Property ;
+    rdfs:label "Accessibilite" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Insta a rdf:Property ;
-    rdfs:label "Instagram" ;
+comn:Utilisateurs a rdf:Property ;
+    rdfs:label "Utilisateurs" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Fb a rdf:Property ;
-    rdfs:label "Facebook" ;
+comn:Contenu a rdf:Property ;
+    rdfs:label "Contenu" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
@@ -121,14 +121,14 @@ comn:Ordi a rdf:Property ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Cnx a rdf:Property ;
-    rdfs:label "Connexion" ;
+comn:Applications a rdf:Property ;
+    rdfs:label "Applications" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Techno a rdf:Property ;
-    rdfs:label "Technologie" ;
+comn:Format a rdf:Property ;
+    rdfs:label "Format" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
@@ -151,7 +151,7 @@ comn:Plateforme a rdf:Property ;
     vs:term_status "experimental" .
 
 comn:TV a rdf:Property ;
-    rdfs:label "Tendances virales" ;
+    rdfs:label "Tendancesvirales" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
@@ -173,3 +173,11 @@ comn:UI a rdf:Property ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
+
+
+
+
+
+
+
+
