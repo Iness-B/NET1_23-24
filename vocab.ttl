@@ -91,8 +91,8 @@ comn:Algorithme a rdf:Property ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-comn:Données a rdf:Property ;
-    rdfs:label "Données" ;
+comn:Donnees a rdf:Property ;
+    rdfs:label "Donnees" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
@@ -182,6 +182,12 @@ comn:Facebook a rdf:Property ;
 
 comn:Instagram a rdf:Property ;
     rdfs:label "Instagram" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs teach:ects ;
+    vs:term_status "experimental" .
+
+comn:Smartphone a rdf:Property ;
+    rdfs:label "Smartphone" ;
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
