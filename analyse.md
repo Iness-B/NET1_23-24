@@ -8,7 +8,7 @@ Le vocabulaire dans le domaine de la communication numérique que j'ai choisi  d
 ## Les items :
 
 Personnellement, j'ai créé 29 items pour expliquer plus en détail mon vocabulaire.Dans les items que j'ai crée j'ai commencé par des items plus globale comme par exemple "Internet" , " Moteur de recherche" , "Web marketing" qui m'ont permis de réflichir à d'autres items comme : Reseaux sociaux qui m'a permis aussi de trouver plusieurs items en relation avec ça :
- * Influeunceurs , Partage, Like, Hashtag, Interaction , Notification, Commentaire , application , abonnement 
+ * Influeunceurs , Partage, Like, Hashtag, Interaction , Notification, Commentaire , application , abonnement. 
 J'ai aussi ajouté des items comme ; teletravail , chatbot , telecommunication qui sont de nouvelle pratique que la communication numerique a intergrer dans notre vie quotidienne et professionnelle . Sans oublier les outils qui nous permettent de faire tout ça comme : " les smartphones" et "les ordinateurs" .
 
 ## Ressources templates :
